@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	.box{
+		width: 600px;
+		height: 100px;
+		margin: auto;
+		text-align: center;
+		background: #ccc;
+	}
+	.box:before{
+		content: '';
+		display: inline-block;
+		height: 100%;
+		vertical-align: middle;
+	}
+	.box button{
+		background: red;
+		border: none;
+		color: white;
+		display: inline-block;
+		padding: 5px 3px;
+		border-radius: 5px;
+		margin: 4px 2px;
+		font-size: 16px;
+	}
+</style>
+<body >
+	<div class="box">
+	<button>按钮1</button>
+	<button>按钮2</button>
+	<button>按钮3</button>
+	</div>
+</body>
+</html>
